@@ -2,7 +2,15 @@ import React, { Component } from "react";
 
 class Map extends Component {
   render() {
-    return <div className="col-sm-5">TODO</div>;
+    const style = {
+      height: "100vh",
+    };
+
+    return (
+      <div className="col-sm-5" style={style}>
+        TODO map
+      </div>
+    );
   }
 }
 

@@ -8,3 +8,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.flat-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@import "cards";
